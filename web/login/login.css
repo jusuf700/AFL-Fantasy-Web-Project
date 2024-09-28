@@ -1,0 +1,384 @@
+*{
+  font-family: sans-serif;
+  color: #f5f5f5;
+  
+
+}
+
+body{
+  font-size: 10px;
+ 
+  background-color:#0a0a0a;
+  position: relative;
+  
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 12vh;
+  
+  /* background-color: gray; */
+  align-items: center;
+  
+  
+}
+
+
+
+.divznak{
+  margin-left: 7rem ;
+}
+.znak{
+  width: 7rem;
+  height: 7rem;
+
+
+}
+
+.znak:hover{
+  transform: scale(110%);
+  cursor: pointer;
+}
+
+
+.navislika{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+  gap: 2rem;
+}
+
+.navig{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+}
+
+.navii{
+  color: rgb(175, 175, 175);
+  font-size: 1rem;
+  text-decoration: none;
+
+}
+
+
+.slikadiv{
+  width: 3rem;
+  height: 3rem;
+}
+
+
+.profilna2{
+    
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  border-radius: 40rem;
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
+  
+}
+
+
+.profilna{
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+}
+
+.jezik{
+  display: flex;
+  color:  rgb(175, 175, 175);
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+
+}
+
+
+
+
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgba(15, 19, 25, 255); */
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero svg {
+    position: absolute;
+    bottom: -10px;
+  }
+  .hero svg:nth-child(2) {
+    bottom: -20px;
+  }
+  
+  .center {
+    width: 30%;
+    height: 70%;
+    position: relative;
+    z-index: 100;
+    gap: 20px;
+  }
+  .center h1 {
+    color: #f5f5f5;
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .center h3 {
+    margin-top: 20px;
+    color: #d3bebe;
+    text-align: center;
+  
+  }
+  .center h4 {
+    margin-top: 20px;
+    color: #d3bebe;
+    text-align: center;
+  
+  }
+  .center a{
+    color: #CF0A0A;
+  }
+  .center input {
+    width: 100%;
+    background-color: rgba(31, 35, 41, 255);
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 3px;
+  
+  }
+  
+  .center button{
+    width: 106%;
+    background-color: #CF0A0A;
+    height: 40px;
+    border-radius: 3px;
+    border: 0px;
+    margin-top: 50px;
+    cursor: pointer;
+    color: #d3bebe;
+    font-weight: 700;
+    font-size: 20px;
+    
+  }
+  
+  
+  input:focus ~ .floating-label,
+  input:not(:focus):valid ~ .floating-label,
+  textarea:focus ~ .floating-label,
+  textarea:not(:focus):valid ~ .floating-label {
+    top: -20px;
+    left: 20px;
+    font-size: 14px;
+    opacity: 1;
+    color: #d3bebe;
+  }
+  
+  .inputText {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    color: #d3bebe;
+    padding-left: 20px;
+  }
+  
+  .cont {
+    position: relative;
+    height: 40px;
+    margin-top: 30px;
+  }
+  
+  .floating-label {
+    position: absolute;
+    pointer-events: none;
+    font-weight: 600;
+    font-size: 18px;
+    left: 20px;
+    top: 11px;
+    transition: 0.2s ease all;
+    color: #d3bebe;
+    z-index: 10000000;
+  }
+  #active{
+    color: #fff;
+  }
+  .login-menu{
+    background-color: #CF0A0A;
+    width: 100%;
+    position: absolute;
+    z-index: 1002;
+    height: 100vh;
+    margin-left: 100%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+  }
+  #active1{
+    color: #fff;
+  }
+ 
+  .login-menu a{
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 26px;
+  }
+  #google_translate_element{
+    width: 70px;
+    height: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: -7px;
+  }
+  #google_translate_element select{
+    background-color: transparent;
+    color: #CF0A0A;
+    font-size: 16px;
+    border: 0px;
+  
+    cursor: pointer;
+  }
+  .mobile{
+    height: 5vh;
+    width: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10%;
+    display: none;
+  }
+  .mobile .longer{
+    width: 90%;
+    height: 2px;
+    margin-left: 10%;
+    background-color: #fff;
+    transition: 1s;
+    z-index: 101;
+
+  }
+  .mobile .shorter{
+    width: 60%;
+    height: 2px;
+    margin-left: 10%;
+    transition: 1s;
+    z-index: 101;
+
+    background-color: #fff;
+  }
+  .nav{
+    display: flex;
+    height: 12vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .nav .left, .nav .right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    height: 12vh;
+  }
+  .nav .right{
+    justify-content: end;
+    z-index: 1003;
+  }
+
+  .right ul{
+    margin-right: 10%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  ul li{
+  list-style: none;}
+  
+  .right ul li a{
+    text-decoration: none;
+    color: #CF0A0A;
+
+  }
+/*   
+  @media (max-width:1000px){
+    .center {
+      width: 50%;
+    }
+    .center input{
+      width: 90%;
+      margin-left: 5%;
+    }
+    .center button{
+      width: 97%;
+      margin-left: 5%;
+
+    }
+    
+    .hero svg {
+      position: absolute;
+      bottom: 00px;
+    }
+    .hero svg:nth-child(2) {
+      bottom: 0px;
+    }
+    .floating-label {
+      left: 40px;
+    }
+    input:focus ~ .floating-label,
+    input:not(:focus):valid ~ .floating-label,
+    textarea:focus ~ .floating-label,
+    textarea:not(:focus):valid ~ .floating-label {
+      left: 40px;
+    }
+    #passwordValidationMessage,#usernameValidationMessage{
+      margin-left: 5%;
+    }
+  }
+  @media (max-width:768px){
+    .nav .right ul{
+      display: none;
+    }
+    .mobile{
+      display: flex;
+    }
+
+  }
+  @media (max-width:580px){
+    .center {
+      width: 60%;
+    }
+  }
+  @media (max-width:480px){
+    .center h1 {
+      font-size: 34px;
+    }
+    .center {
+      width: 65%;
+    }
+  } */
+
+
+

@@ -1,0 +1,9 @@
+{
+    "users":
+    [
+        {"username": "jusuf","password": "88e8a20c1304beb3ff61ed1d77f50984e553befaec3965c19df56622e2b441e41ebd8d1372c0fa1f47df79795f9f973a287591aeec5a9c691db8d93f64f60fdc"},
+        {"username": "aladin","password": "af6827db80cd3197ed57e0180f9ebae0ad77d9325211d213dbc80da8aeb55f2cfc655a9eb337ca7f6cf3ff2f51b1ab56f88f9309a5315a76929172715ba947e6"},
+        {"username": "haris","password": "d3835242d50143e0659063e0bed581bf4c3e326d7546b8f48e2de4f5a2720c9b8829339b6cc9aeda65dcf5f1d54eb58b3cca31869ae683e0288ac28bdd1813ed"},
+        {"username": "home","password": "57c6ab98fa688591fc5dfad8b935462a3cd29ca7396c893ea93ecf8039f0aea38069cc19101b77928b76c06c4da5ba074c081c09028bf9a809f45b4f9350e8d2"}
+    ]
+}
